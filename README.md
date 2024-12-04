@@ -18,11 +18,13 @@ AESAC combines **Autoencoders** with the **Soft Actor-Critic (SAC)** algorithm t
 To train the autoencoder using the AFAP heuristic-generated dataset:
 ```bash
 bash scripts/start_training_ae.sh
+```
 
 To train the SAC agent within the EV2Gym environment:
 
 ```bash
 bash scripts/start_training_rl.sh
+```
 
 ## Configuration
 
